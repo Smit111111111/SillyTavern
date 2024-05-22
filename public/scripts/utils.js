@@ -1666,3 +1666,7 @@ export function highlightRegex(regexStr) {
 
     return `<span class="regex-highlight">${regexStr}</span>`;
 }
+
+export function identity(x) {
+    return x;
+}
